@@ -1,3 +1,28 @@
-body{
-    background-color:blue;
+nav{
+  text-transform: uppercase;
+  font-family: PT Sans Narrow;
+}
+.nav-link { 
+    opacity: 0.7;
+}
+.nav-link:hover{
+    opacity: 1;
+    background-color: #eee !important;
+}
+
+header {
+height: 600px;
+width: 100%;
+background-image: url("header.jpg");
+background-size: cover;
+
+/*Center the text*/
+text-align:center;
+color: Black;
+
+}
+
+header p {
+    font-style: italic;
+    
 }
