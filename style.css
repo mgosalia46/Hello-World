@@ -24,8 +24,10 @@ color: Black;
 
 header p {
     font-style: italic;
-    
+
 }
+
+
 
 .services i{
 font-size: 30px;
@@ -36,10 +38,74 @@ width: 80px;
 height: 80px;
 border-radius: 50%
 
+    
+
 }
 
 .services span{
     width: 200px;
-    display: inline-block
+    display: inline-block;
+}
+
+
+
+
+.Pricing {
+    text-align: center;
+    
+    
+}
+
+.Pricing span1 {
+    /*Adjust the size and position of the icon*/
+font-size: 30px;
+padding: 15px 20px;
+
+color: #fff;
+background-color: #353535;
+width: 60px;
+height: 60px;
+border-radius: 10%;
+
+
+
+}
+
+.Pricing span3 {
+    /*Adjust the size and position of the icon*/
+font-size: 30px;
+padding: 25px 40px;
+
+color: #fff;
+background-color: #5bc0de;
+width: 80px;
+height: 80px;
+border-radius: 10%;
+
+}
+
+.Pricing span2 {
+    /*Adjust the size and position of the icon*/
+font-size: 25px;
+padding: 5px 20px
+
+;color: #fff;
+background-color: 
+
+#b8b8b8
+
+}
+
+.team{
+    text-align: center;
+    border-radius: 20%;
+}
+
+.contact btn{
+    width:100%;
+}
+
+.contact button:hover{
+    background-color: black;
 }
 
