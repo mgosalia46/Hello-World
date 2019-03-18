@@ -38,8 +38,6 @@ width: 80px;
 height: 80px;
 border-radius: 50%
 
-    
-
 }
 
 .services span{
@@ -47,12 +45,15 @@ border-radius: 50%
     display: inline-block;
 }
 
-
+.services {
+    width: auto;
+}
 
 
 .Pricing {
     text-align: center;
-    
+    width: auto;
+    display:inline-block;
     
 }
 
@@ -87,25 +88,43 @@ border-radius: 10%;
 .Pricing span2 {
     /*Adjust the size and position of the icon*/
 font-size: 25px;
-padding: 5px 20px
-
-;color: #fff;
-background-color: 
-
-#b8b8b8
-
+padding: 5px 20px;
+color: #fff;
+background-color: #b8b8b8
 }
 
-.team{
+
+
+.team {
+    margin: auto;
     text-align: center;
-    border-radius: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+
 }
 
-.contact btn{
+.team img{
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: blue;
+    }
+
+.contact .btn{
     width:100%;
+}
+
+.contact i {
+    padding: 15px;
 }
 
 .contact button:hover{
     background-color: black;
 }
+
 
